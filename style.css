@@ -1,0 +1,121 @@
+body, html{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    font-size: 5px;
+}
+
+.sidebar {
+    width: 180px;
+    background-color: #9b59b6;
+    color: white;
+    padding: 5px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.logo {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.menu-item {
+    padding: 6px 0;
+    font-size: 10px;
+}
+.main-content {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.header h1 {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+.search-bar {
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 150px;
+    font-size: 10px;
+}
+.quick-links-section {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+.quick-links {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.quick-link {
+    padding: 6px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 9px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.dashboard-content {
+    display: flex;
+    gap: 8px;
+    flex-grow: 1;
+}
+.overview, .trading-accounts {
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.overview {
+    flex: 2;
+}
+.trading-accounts {
+    flex: 1;
+}
+.overview h2, .trading-accounts h2 {
+    font-size: 12px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.chart-container {
+    height: 150px;
+}
+.account-balance {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 9px;
+}
+.open-trades {
+    margin-top: 10px;
+}
+.open-trades h3 {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.trade {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    font-size: 9px;
+}
+.positive { color: green; }
+.negative { color: red; }
